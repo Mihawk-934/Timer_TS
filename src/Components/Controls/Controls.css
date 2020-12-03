@@ -1,0 +1,20 @@
+.controls-container {
+    display: flex;
+    justify-content: space-around;
+    width: 330px;
+}
+
+.controls-container button{
+  
+    background-color: #E5AD3D;
+    padding: 3px 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.controls-container button:active, .controls-container button:focus{
+    outline: none;
+}
